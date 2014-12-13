@@ -21,7 +21,7 @@
 		B023755E1A3C1885008E23B3 /* sanic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sanic.mp3; sourceTree = SOURCE_ROOT; };
 		B02375601A3C1891008E23B3 /* sanic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sanic.png; sourceTree = SOURCE_ROOT; };
 		B02375621A3C1895008E23B3 /* urtooslow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = urtooslow.mp3; sourceTree = SOURCE_ROOT; };
-		B0C2F88419DBD65A008F0E2D /* chromeless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chromeless.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0C2F88419DBD65A008F0E2D /* sanic-mode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sanic-mode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0C2F88819DBD65A008F0E2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0C2F88919DBD65A008F0E2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0C2F88B19DBD65A008F0E2D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,7 +55,7 @@
 		B0C2F88519DBD65A008F0E2D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B0C2F88419DBD65A008F0E2D /* chromeless.app */,
+				B0C2F88419DBD65A008F0E2D /* sanic-mode.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B0C2F88319DBD65A008F0E2D /* chromeless */ = {
+		B0C2F88319DBD65A008F0E2D /* sanic-mode */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B0C2F8A119DBD65A008F0E2D /* Build configuration list for PBXNativeTarget "chromeless" */;
+			buildConfigurationList = B0C2F8A119DBD65A008F0E2D /* Build configuration list for PBXNativeTarget "sanic-mode" */;
 			buildPhases = (
 				B0C2F88019DBD65A008F0E2D /* Sources */,
 				B0C2F88119DBD65A008F0E2D /* Frameworks */,
@@ -99,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = chromeless;
+			name = "sanic-mode";
 			productName = chromeless;
-			productReference = B0C2F88419DBD65A008F0E2D /* chromeless.app */;
+			productReference = B0C2F88419DBD65A008F0E2D /* sanic-mode.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +118,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B0C2F87F19DBD65A008F0E2D /* Build configuration list for PBXProject "chromeless" */;
+			buildConfigurationList = B0C2F87F19DBD65A008F0E2D /* Build configuration list for PBXProject "sanic-mode" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -131,7 +131,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B0C2F88319DBD65A008F0E2D /* chromeless */,
+				B0C2F88319DBD65A008F0E2D /* sanic-mode */,
 			);
 		};
 /* End PBXProject section */
@@ -258,7 +258,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = chromeless/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "sanic-mode";
 			};
 			name = Debug;
 		};
@@ -269,14 +269,14 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = chromeless/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "sanic-mode";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B0C2F87F19DBD65A008F0E2D /* Build configuration list for PBXProject "chromeless" */ = {
+		B0C2F87F19DBD65A008F0E2D /* Build configuration list for PBXProject "sanic-mode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0C2F89F19DBD65A008F0E2D /* Debug */,
@@ -285,7 +285,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B0C2F8A119DBD65A008F0E2D /* Build configuration list for PBXNativeTarget "chromeless" */ = {
+		B0C2F8A119DBD65A008F0E2D /* Build configuration list for PBXNativeTarget "sanic-mode" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B0C2F8A219DBD65A008F0E2D /* Debug */,
